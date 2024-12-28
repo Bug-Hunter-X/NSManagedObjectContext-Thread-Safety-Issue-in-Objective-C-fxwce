@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Objective-C related to thread safety when using NSManagedObjectContext.  The `bug.m` file shows the incorrect implementation, leading to potential crashes. The `bugSolution.m` file provides the correct solution using `performBlock:` or `performBlockAndWait:` to ensure thread safety.
